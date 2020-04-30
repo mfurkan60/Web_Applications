@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Order coffee</title>
+
+    <!-- css file-->
+    <link rel="stylesheet" href="style/style.css">
+    <!-- bootstrap -->
+    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- bootstrapt -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bootstrap-4.3.1/dist/css/">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css ">
+    <link rel="shortcut icon" type="image/x-icon" href="icons/font-awesome_4-7-0_star_32_8_f15b58_none.png">
+    <link rel="stylesheet" href="fancybox-master/dist/jquery.fancybox.css">
+    <style>
+        body{
+    background: url('img/images%20(17).jpeg') no-repeat center;
+ 
+     background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+        }
+        .container{
+            margin-top: 9rem;
+        }
+        #select_coffee{
+            height: 100%;
+            width: 100%;
+            border-radius: 14px;
+        }
+        .select_text{
+            padding-top: 25px;
+            text-align: center;
+            background-color: black;
+            color: #fff;
+            height: 100%;
+            border-radius: 14px;
+        }
+        
+    </style>
+</head>
+
+<body>
+<div class="navbar navbar-expand-md sticky-top">
+        <div class="container-fluid  ">
+            <a href="index.html" class="navbar-brand offset-md-5">COFFEETIME </a>
+             
+        </div>
+    </div>
+<div class="container">
+    <div class="row">
+       
+        <div class="col-md-6 offset-md-3">
+            <div class="card">
+                <div class="card-body">
+                     <tr>
+                         <td><select name="coffee" id="select_coffee">
+                             <option value="selectcoffe">selectcoffe</option> 
+                             <option value="coffee1">coffee1</option>
+                             <option value="coffee2">coffee2</option>
+                             <option value="coffee3">coffee3</option>
+                             <option value="coffee4">coffee4</option>
+                             <option value="coffee5">coffee5</option>
+
+                                                          
+                         </select></td>
+                         
+                         
+                     </tr>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+       
+        
+    </div>
+    
+</div>
+<div class="container">
+    <div class="row">
+         <div class="col-md-3">
+           <div class="card">
+               <div class="card-body">
+               
+                   <input type="checkbox" value="small" >Small <span>$5</span> 
+                      </div>
+               
+           </div>
+            <div class="coffe-img" style="margin-top: 2px">
+                   <img src="img/small.jpg" alt="" class="img-fluid">
+                   
+               </div> 
+       </div>   <div class="col-md-3">
+           <div class="card">
+               <div class="card-body">
+               
+                   <input type="checkbox" value="small">Medium <span>$7</span><br>
+                      
+               </div>
+           </div>
+            <div class="coffe-img" style="margin-top: 2px">
+                   <img src="img/medium.jpg" alt="" class="img-fluid">
+                   
+               </div> 
+       </div>   <div class="col-md-3">
+           <div class="card">
+               <div class="card-body">
+               
+                   <input type="checkbox" value="small">Large <span>$9</span><br>
+                      
+               </div>
+           </div>
+            <div class="coffe-img" style="margin-top: 2px">
+                   <img src="img/large.jpg" alt="" class="img-fluid">
+                   
+               </div> 
+       </div>   <div class="col-md-3">
+           <div class="card">
+               <div class="card-body">
+               
+                   <input type="checkbox" value="small">Xlarge<span>$11</span> <br>
+                      
+               </div>
+           </div>
+            <div class="coffe-img" style="margin-top: 2px">
+                   <img src="img/xl.jpg" alt="" class="img-fluid">
+                   
+               </div> 
+       </div>
+         
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+       <div class="col-md-6 offset-md-2" >
+        <div class="log-in" id="feedback_screen">
+                    <form>
+                        <div class="form-group">
+                          <label for=" ">Name</label>
+                          <input type="name" class="form-control as" id="exampleInputName" aria-describedby="emailHelp" placeholder="Name">
+                         </div>
+                         <div class="form-group">
+                          <label for=" ">Surname</label>
+                          <input type="surname" class="form-control as" id="exampleInputName" aria-describedby="emailHelp" placeholder="Surname">
+                         </div>
+                         <div class="form-group">
+                          <label for=" ">Address</label>
+                          <input type="address" class="form-control as " id="exampleInputName" aria-describedby="emailHelp" placeholder="Address">
+                         </div>
+                        <div class="button">   <button type="submit" class="btn btn-primary">Order</button></div>
+                     
+                      </form>  
+                
+                </div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+    <!-- javascript file-->
+    <style src="js/main.js">
+    </style>
+    <script src="fancybox-master/dist/jquery.fancybox.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,137 @@
+.navbar {
+    background-color: black
+}
+
+.navbar-brand{
+  color: #fff;
+}
+
+.nav-link{
+   color: #fff; 
+}
+
+
+/*section*/
+.jumbotron{
+    background: url("images/images(6).jpeg")
+}
+.img-fluid{
+   
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn_visit{
+     border: 1px solid black !important;
+    border-radius: 10px !important;
+    background-color: black !important;
+    float: right
+   
+}
+.visit_btn{
+    float: right;
+     color: #fff !important;
+   
+}
+.orderbtn{
+    background-color: black !important;
+    border: 1px solid black;
+    border-color: black !important;
+    border-radius: 10px;
+}
+
+
+
+
+.main{
+    background-color: gray;
+    margin-top: 75px;
+}
+
+
+.button{
+    background-color: transparent;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.list-group a {
+    margin-top: 5px !important;
+}
+
+ 
+
+.menu{
+    margin-top: 75px;
+}
+
+body > div.container-fluid{
+      background-color: #e9ecef !important;
+
+}
+
+div.row.main{
+    padding: 50px;
+}
+
+
+.container-fluid > .row > .takeway{
+    cursor: pointer  ;
+    border: 1px solid black;
+}
+.takeway-btn{
+    width: 100%;
+}
+ 
+.as{
+}
+.as:focus{
+        transition: 2.0s;
+
+    width: 800px;
+}
+
+
+
+
+/*footer*/
+footer_ul{
+    list-style: none;
+    
+}
+footer{
+    background-color: black;
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover{
+    cursor: pointer;
+    color: gray;
+    text-decoration: none;
+}
+footer ul li
+{
+    display: inline-block;   
+    margin-right: 7px;
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
