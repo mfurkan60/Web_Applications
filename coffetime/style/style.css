@@ -77,16 +77,19 @@ div.row.main{
 }
 
 
-.container-fluid > .row > .takeway{
+body > div:nth-child(10) > div > div{
     cursor: pointer  ;
     border: 1px solid black;
-}
-.takeway-btn{
-    width: 100%;
+    background-color: grey !important;
+    border-radius: 50px;
 }
  
-.as{
+ 
+.takeway-btn{
+    color:#fff !important
 }
+ 
+
 .as:focus{
         transition: 2.0s;
 
